@@ -1,0 +1,309 @@
+/*Large devicese*/
+
+@media (max-width: 1268px) {
+    .banner-text { 
+    padding-top: 44px;
+}
+.banner-form { 
+    padding: 14px 30px;
+}
+.form-head { 
+    font-size: 16px; 
+    margin-bottom: 10px;
+    }
+    .banner-form textarea,.captcha-box {
+    height: 64px;
+}
+.intro-top { 
+    font-size: 14px; 
+    padding: 16px;
+}
+.intro-right ul li { 
+    font-size: 14px; 
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+}
+.intro-section {
+    padding: 70px 150px; 
+}
+}
+@media (max-width: 1228px) {
+    .banner-content { 
+    padding: 25px 90px;
+} 
+.banner-text h2 { 
+    font-size: 25px;
+}
+.banner-text h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.banner-text {
+    padding-top: 32px;
+    padding-bottom: 9px;
+}
+.logo-wrap img {
+    width: 200px; 
+}
+.banner-left {
+    width: 60%;
+    }
+    .banner-right {
+    width: 37%;
+}
+.banner-form textarea, .captcha-box {
+    height: 45px;
+}
+.captcha-box { 
+    padding: 9px 20px; 
+    margin-bottom: 10px;
+}
+.banner-form input[type="text"], .banner-form textarea { 
+    margin-bottom: 8px; 
+}
+.intro-section,.doctor-section,.info-section,.tab-section,.panel-section,.testimonial-section {
+    padding: 50px 100px;
+}
+.intro-right ul { 
+    margin-top: 30px;
+}
+.intro-right ul li { 
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.tabs{
+    width: 30%;
+}
+}
+@media (max-width: 1024px) {
+    .form-head {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.banner-content {
+    padding: 15px 90px;
+}
+.intro-section, .doctor-section, .info-section, .tab-section, .panel-section, .testimonial-section {
+    padding: 25px 60px;
+}
+}
+/*Tab*/
+@media (max-width: 992px) {
+    .logo-wrap img {
+    width: 92px;
+    margin-top: 10px;
+}
+.banner-content {
+    padding: 15px 40px;
+}
+.banner-text h2 {
+    font-size: 16px;
+    line-height: 27px;
+}
+.banner-text {
+    padding-top: 20px;
+    padding-bottom: 9px;
+}
+.banner-text h3 {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 22px;
+}
+.common-btn button { 
+    font-size: 12px;
+}
+.banner-left {
+    width: 55%;
+}
+.banner-right {
+    width: 44%;
+}
+.banner-form input[type="text"], .banner-form textarea {
+    margin-bottom: 5px;
+    font-size: 10px;
+}
+.banner-form textarea, .captcha-box {
+    height: 35px;
+}
+.captcha-box-left span { 
+    font-size: 10px;
+}
+.captcha-box {
+    padding: 4px 20px;
+    }
+    .banner-form .common-btn button { 
+    height: 30px;
+}
+.banner-form {
+    padding: 7px 22px;
+}
+.intro-top {
+    font-size: 12px;
+    padding: 12px;
+    line-height: 20px;
+}
+.intro-right ul li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.intro-section, .doctor-section, .info-section, .tab-section, .panel-section, .testimonial-section {
+    padding: 25px 30px;
+}
+.doc-details p { 
+    font-size: 13px; 
+}
+.doc-info { 
+    font-size: 12px;
+    line-height: 20px; 
+    width: 100%; 
+}
+.doc-img img {
+    width: 63%;
+}
+.common-heading { 
+    font-size: 24px;
+}
+.info-list ul li { 
+    font-size: 12px;
+    line-height: 30px; 
+}
+.tab-info { 
+    font-size: 12px; 
+}
+.tab-image img {
+    width: 35px;
+}
+.panel-section .accordion { 
+    font-size: 15px;
+}
+.testimonial-wrap p { 
+    font-size: 13px;
+    }
+}
+/*Mobile*/
+@media (max-width: 767px) {
+    .banner-content {
+    padding: 15px 15px;
+}
+.logo-wrap img {
+    width: 70px;
+    margin-top: 0;
+}
+.banner-left {
+    width: 100%;
+}
+.banner-section { 
+    height: 460px;
+}
+.banner-text {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.banner-text h2 {
+    font-size: 9px;
+    line-height: 21px;
+    margin-bottom: 0;
+}
+.banner-text h3 {
+    color: #FFFFFF;
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: 0;
+}
+.common-btn button {
+    font-size: 10px;
+    height: 31px;
+}
+.banner-right {
+    width: 100%;
+    margin-top: 30px;
+}
+.intro-left { 
+    width: 100%; 
+}
+.intro-right {
+    width: 100%;  
+    margin-top: 20px;
+}
+.intro-section, .doctor-section, .info-section, .tab-section, .panel-section, .testimonial-section {
+    padding: 20px 20px;
+}
+.doctors-section-wrap { 
+    margin-top: 20px;
+}
+.doctors-left, .doctors-right {
+    width: 100%;
+
+}
+.common-subheading { 
+    font-size: 17px; 
+    padding: 16px 0; 
+}
+.common-heading {
+    font-size: 20px;
+}
+.doc-details h3 { 
+    font-size: 16px; 
+    padding: 11px 0; 
+}
+.doc-details p {
+    font-size: 12px;
+}
+.doc-btn button { 
+    font-size: 12px;
+}
+.info-list ul { 
+    padding-left: 20px;
+}
+.tabs {
+    width: 48%;
+    padding: 15px;
+}
+.tab-image img {
+    width: 28px;
+}
+.tab-image {
+    min-height: 44px;
+    margin-bottom: 7px;
+}
+.panel-section .accordion { 
+    padding: 18px 0;
+}
+.testimonial-wrap p { 
+    width: 79%; 
+}
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: 45px;
+}
+.user-name h4 { 
+    font-size: 18px;
+}
+.common-btn button {
+    font-size: 12px;
+    height: 39px;
+}
+.user-text { 
+    font-size: 13px;   
+    width: 96%;
+    margin-top: 23px;
+}
+.blue-color {
+    margin: 25px 0; 
+}
+.go-to-top img {
+    width: 29px;
+}
+.go-to-top { 
+    right: -14px;
+    top: -32px;
+}
+.copy-right { 
+    font-size: 10px;  
+    padding-bottom: 50px;
+}
+.testimonial-slider .item {
+    padding: 30px; 
+}
+}
