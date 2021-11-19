@@ -1,280 +1,75 @@
 @font-face {
-    font-family: 'Arial';
-    src: url('../fonts/ArialMT.woff2') format('woff2'),
-        url('../fonts/ArialMT.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial';
-    src: url('../fonts/Arial-BoldMT.woff2') format('woff2'),
-        url('../fonts/Arial-BoldMT.woff') format('woff');
+    font-family: 'Neutraface Text';
+    src: url('../fonts/NeutrafaceText-Bold.woff2') format('woff2'),
+        url('../fonts/NeutrafaceText-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Arial';
-    src: url('../fonts/Arial-BoldMT.woff2') format('woff2'),
-        url('../fonts/Arial-BoldMT.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial';
-    src: url('../fonts/Arial-BoldItalicMT.woff2') format('woff2'),
-        url('../fonts/Arial-BoldItalicMT.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial CE';
-    src: url('../fonts/Arial-BoldMT.woff2') format('woff2'),
-        url('../fonts/Arial-BoldMT.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial CE';
-    src: url('../fonts/ArialCE.woff2') format('woff2'),
-        url('../fonts/ArialCE.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial CE';
-    src: url('../fonts/ArialCE-BoldItalic.woff2') format('woff2'),
-        url('../fonts/ArialCE-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial CE MT';
-    src: url('../fonts/ArialCEMTBlack-Regular.woff2') format('woff2'),
-        url('../fonts/ArialCEMTBlack-Regular.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial CE';
-    src: url('../fonts/ArialCE-Italic.woff2') format('woff2'),
-        url('../fonts/ArialCE-Italic.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial';
-    src: url('../fonts/Arial-BoldItalicMT.woff2') format('woff2'),
-        url('../fonts/Arial-BoldItalicMT.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial';
-    src: url('../fonts/Arial-BlackItalic.woff2') format('woff2'),
-        url('../fonts/Arial-BlackItalic.woff') format('woff');
-    font-weight: 900;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial';
-    src: url('../fonts/Arial-Lgt.woff2') format('woff2'),
-        url('../fonts/Arial-Lgt.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial';
-    src: url('../fonts/Arial-ItalicMT.woff2') format('woff2'),
-        url('../fonts/Arial-ItalicMT.woff') format('woff');
+    font-family: 'Neutraface Text Book';
+    src: url('../fonts/NeutrafaceText-BookItalic.woff2') format('woff2'),
+        url('../fonts/NeutrafaceText-BookItalic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Arial';
-    src: url('../fonts/Arial-MdmItl.woff2') format('woff2'),
-        url('../fonts/Arial-MdmItl.woff') format('woff');
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial';
-    src: url('../fonts/Arial-LgtItl.woff2') format('woff2'),
-        url('../fonts/Arial-LgtItl.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial';
-    src: url('../fonts/Arial-Mdm.woff2') format('woff2'),
-        url('../fonts/Arial-Mdm.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial';
-    src: url('../fonts/Arial-ItalicMT.woff2') format('woff2'),
-        url('../fonts/Arial-ItalicMT.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial Narrow';
-    src: url('../fonts/ArialNarrow-BoldItalic.woff2') format('woff2'),
-        url('../fonts/ArialNarrow-BoldItalic.woff') format('woff');
+    font-family: 'Neutraface Text';
+    src: url('../fonts/NeutrafaceText-BoldItalic.woff2') format('woff2'),
+        url('../fonts/NeutrafaceText-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Arial Narrow';
-    src: url('../fonts/ArialNarrow-Bold.woff2') format('woff2'),
-        url('../fonts/ArialNarrow-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Arial Narrow';
-    src: url('../fonts/ArialNarrow.woff2') format('woff2'),
-        url('../fonts/ArialNarrow.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Titillium Web';
-    src: url('../fonts/TitilliumWeb-BoldItalic.woff2') format('woff2'),
-        url('../fonts/TitilliumWeb-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Titillium Web';
-    src: url('../fonts/TitilliumWeb-Italic.woff2') format('woff2'),
-        url('../fonts/TitilliumWeb-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Titillium Web';
-    src: url('../fonts/TitilliumWeb-Black.woff2') format('woff2'),
-        url('../fonts/TitilliumWeb-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Titillium Web';
-    src: url('../fonts/TitilliumWeb-ExtraLight.woff2') format('woff2'),
-        url('../fonts/TitilliumWeb-ExtraLight.woff') format('woff');
-    font-weight: 200;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Titillium Web';
-    src: url('../fonts/TitilliumWeb-Bold.woff2') format('woff2'),
-        url('../fonts/TitilliumWeb-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Titillium Web';
-    src: url('../fonts/TitilliumWeb-ExtraLightItalic.woff2') format('woff2'),
-        url('../fonts/TitilliumWeb-ExtraLightItalic.woff') format('woff');
-    font-weight: 200;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Titillium Web';
-    src: url('../fonts/TitilliumWeb-LightItalic.woff2') format('woff2'),
-        url('../fonts/TitilliumWeb-LightItalic.woff') format('woff');
-    font-weight: 300;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Titillium Web';
-    src: url('../fonts/TitilliumWeb-SemiBoldItalic.woff2') format('woff2'),
-        url('../fonts/TitilliumWeb-SemiBoldItalic.woff') format('woff');
+    font-family: 'Neutraface Text Demi';
+    src: url('../fonts/NeutrafaceText-DemiItalic.woff2') format('woff2'),
+        url('../fonts/NeutrafaceText-DemiItalic.woff') format('woff');
     font-weight: 600;
     font-style: italic;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Titillium Web';
-    src: url('../fonts/TitilliumWeb-Light.woff2') format('woff2'),
-        url('../fonts/TitilliumWeb-Light.woff') format('woff');
-    font-weight: 300;
+    font-family: 'Neutraface Text Demi';
+    src: url('../fonts/NeutrafaceText-Demi.woff2') format('woff2'),
+        url('../fonts/NeutrafaceText-Demi.woff') format('woff');
+    font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Titillium Web';
-    src: url('../fonts/TitilliumWeb-Regular.woff2') format('woff2'),
-        url('../fonts/TitilliumWeb-Regular.woff') format('woff');
+    font-family: 'Neutraface Text Book';
+    src: url('../fonts/NeutrafaceText-Book.woff2') format('woff2'),
+        url('../fonts/NeutrafaceText-Book.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Titillium Web';
-    src: url('../fonts/TitilliumWeb-SemiBold.woff2') format('woff2'),
-        url('../fonts/TitilliumWeb-SemiBold.woff') format('woff');
-    font-weight: 600;
+    font-family: 'Neutraface Text';
+    src: url('../fonts/NeutrafaceText-LightItalic.woff2') format('woff2'),
+        url('../fonts/NeutrafaceText-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neutraface Text';
+    src: url('../fonts/NeutrafaceText-Light.woff2') format('woff2'),
+        url('../fonts/NeutrafaceText-Light.woff') format('woff');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
-} 
+}
+ 
 /***************COMMON**************/
 button:focus{
     outline:0;
@@ -284,10 +79,10 @@ input[type="text"]:focus, textarea:focus{
 }
 body{
     
-    font-family: 'Arial';
+    font-family: 'Neutraface Text Book';
 } 
 h1,h2,h3,h4,h5,h6{
-    font-family: 'Titillium Web';
+    font-family: 'Neutraface Text';
 }
 html {
   scroll-behavior: smooth;
@@ -306,7 +101,7 @@ html {
 } 
 .banner-content {
     position: absolute;
-    bottom: 30%;
+    bottom: 16%;
     right: 8%;
     background: #ffffff8c;
     padding: 26px;
@@ -314,7 +109,7 @@ html {
 } 
 .banner-content h1 {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 40px;
     margin-bottom: 0;
 } 
 .banner-right h3 {
@@ -345,6 +140,10 @@ html {
 .tab-img {
     width: 87px;
 } 
+.banner-tab img {
+    width: 91px;
+    margin-top: 11px;
+}
 .banner-tab a {
     color: #fff;
     font-size: 18px;
@@ -358,9 +157,10 @@ html {
     text-decoration: none;
 } 
 .banner-tab a:hover {
-    background: #fff;
+    background: #fe7241;
     transition: .5s;
     color: #4a4a4a;
+    color: #fff;
 }
 .banner-content:hover .banner-overlay {
     opacity: 1;
@@ -372,8 +172,8 @@ html {
 } 
 .intro-desc {
     padding: 0 17%;
-    margin-bottom: 146px;
-    font-size: 14px;
+    margin-bottom: 166px;
+    font-size: 16px;
     line-height: 26px;
     margin-top: 50px;
     text-align: center;
@@ -395,7 +195,7 @@ html {
     width: 100%;
 }
 .intro-section {
-    margin-top: 50px;
+    margin-top: 145px;
 } 
 .intro-info h3 {
     font-weight: 600;
@@ -425,14 +225,14 @@ html {
 } 
 .intro-tabs .tab-heads {
     font-size: 24px;
-    background: #94adb5;
+    background: #fe7241;
     color: #fff;
     padding-left: 18px;
 } 
 .intro-tabs ul li {
     margin-bottom: 7px;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 17px;
 } 
 .intro-right {
     display: flex;
@@ -497,7 +297,7 @@ footer {
     overflow: hidden;
 }
 .footerr-img {
-    flex-basis: 40%;
+    flex-basis: 30%;
 }
 .footerr-img img {
     width: 100%;
@@ -520,11 +320,11 @@ footer {
     width: 493px;
 }
 .intro-tabs ul li span {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 400;
 }
 .intro-tabs ul li p {
-    font-size: 13px;
+    font-size: 15px;
 }
 .listImg {
     width: 60px;
@@ -542,22 +342,25 @@ footer {
     list-style-type: none;
     margin-bottom: 39px;
     position: relative;
-    font-size: 14px;
+    font-size: 16px;
+    margin-left: 41px;
 }
 .intro-head-right ul {
-    border-left: 2px solid #373737;
+    border-left: 2px solid #fe7241;
+    list-style-type: none !important;
 }
-.intro-head-right li:after {content: "";position: absolute;left: -46px;top: 5px;width: 10px;height: 10px;border-radius: 50%;background: #000;}
-.intro-desc:before {content: '"';left: 188px;position: absolute;top: -26px;font-size: 72px;}
+.intro-head-right li:after {content: "";position: absolute;left: -47px;top: 5px;width: 10px;height: 10px;border-radius: 50%;background: #fe7241;}
+.intro-desc:before {content: '"';left: 188px;position: absolute;top: -26px;font-size: 72px;color: #fe7241;}
 .intro-desc:after {
     content: '"';
     right: 188px;
     position: absolute;
     bottom: -43px;
     font-size: 72px;
+    color: #fe7241;
 }
 .works-section {
-    padding: 80px 90px;
+    padding: 200px 90px 100px;
     overflow: hidden;
 }
 .works-section h1 {
@@ -1220,138 +1023,7 @@ body {
 .hide {
     display: none
 }
-
-@media (max-width:575px) {
-    .column-xs-1,
-    .column-xs-10,
-    .column-xs-11,
-    .column-xs-12,
-    .column-xs-2,
-    .column-xs-3,
-    .column-xs-4,
-    .column-xs-5,
-    .column-xs-7,
-    .column-xs-8,
-    .column-xs-9 {
-        float: left;
-        padding: 15px
-    }
-    .column-xs-1 {
-        width: 8.333333333333333%
-    }
-    .column-xs-2 {
-        width: 16.66666666666667%
-    }
-    .column-xs-3 {
-        width: 25%
-    }
-    .column-xs-4 {
-        width: 33.33333333333333%
-    }
-    .column-xs-5 {
-        width: 41.66666666666667%
-    }
-    .column-xs-6 {
-        width: 50%;
-        float: left;
-        padding: 15px
-    }
-    .column-xs-7 {
-        width: 58.33333333333333%
-    }
-    .column-xs-8 {
-        width: 66.66666666666667%
-    }
-    .column-xs-9 {
-        width: 75%
-    }
-    .column-xs-10 {
-        width: 83.33333333333333%
-    }
-    .column-xs-11 {
-        width: 91.66666666666667%
-    }
-    .column-xs-12 {
-        width: 100%
-    }
-    .hide-xs {
-        display: none
-    }
-    .effectTab-header .title::before {
-        width: 125%;
-        left: 15%
-    }
-    .tab-container {
-        padding-top: 25px;
-        padding-bottom: 25px
-    }
-}
-
-@media (min-width:576px) and (max-width:767px) {
-    .column-sm-1,
-    .column-sm-10,
-    .column-sm-11,
-    .column-sm-12,
-    .column-sm-2,
-    .column-sm-3,
-    .column-sm-4,
-    .column-sm-5,
-    .column-sm-7,
-    .column-sm-8,
-    .column-sm-9 {
-        float: left;
-        padding: 15px
-    }
-    .column-sm-1 {
-        width: 8.333333333333333%
-    }
-    .column-sm-2 {
-        width: 16.66666666666667%
-    }
-    .column-sm-3 {
-        width: 25%
-    }
-    .column-sm-4 {
-        width: 33.33333333333333%
-    }
-    .column-sm-5 {
-        width: 41.66666666666667%
-    }
-    .column-sm-6 {
-        width: 50%;
-        float: left;
-        padding: 15px
-    }
-    .column-sm-7 {
-        width: 58.33333333333333%
-    }
-    .column-sm-8 {
-        width: 66.66666666666667%
-    }
-    .column-sm-9 {
-        width: 75%
-    }
-    .column-sm-10 {
-        width: 83.33333333333333%
-    }
-    .column-sm-11 {
-        width: 91.66666666666667%
-    }
-    .column-sm-12 {
-        width: 100%
-    }
-    .hide-sm {
-        display: none
-    }
-    .visible-sm {
-        display: block
-    }
-    .tab-container {
-        padding-top: 25px;
-        padding-bottom: 25px
-    }
-}
-
+ 
 @media (max-width:1000px) {
     .header h1 {
         padding-left: 70px
@@ -1507,12 +1179,11 @@ body {
     -webkit-transition: -webkit-transform .35s;
     transition: transform .35s;
     font-weight: 600;
-    font-size: 22px;
-    font-family: Oswald, sans-serif
+    font-size: 22px; 
+    text-transform: capitalize;
 }
 
-.effect.effect-one p {
-    font-family: Poppins
+.effect.effect-one p { 
 }
 
 .effect-one .pt-1 {
@@ -1609,4 +1280,28 @@ body {
     .effect h2 {
         font-size: 1.3rem!important
     }
+}
+
+/********************fade in***********************/
+ /***************exterior***************/
+ .banner-head {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    color: #fff;
+    margin: auto;
+    width: 34%;
+    text-align: center;
+    background: #fe7241;
+    font-weight: 700;
+    padding: 4px 2px;
+}
+.autocad-section {
+    padding: 70px 60px;
+}
+.autocad-section h1 {
+    margin-bottom: 53px;
+    font-weight: 700;
 }
