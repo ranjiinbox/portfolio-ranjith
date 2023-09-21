@@ -273,6 +273,14 @@ html {
     color: #fff;
     padding: 12px 16px;
     text-decoration: none;
+    border: 3px solid #fe7241;
+    transition: .5s;
+    font-weight: 700;
+}
+.social li a:hover {
+    background: #fff;
+    color: #fe7241;
+    transition: .5s;
 }
 .footer-block ul {
     margin: 0;
@@ -1313,8 +1321,13 @@ a.homeBtn {
     top: 15px;
     border: 3px solid #fe7241;
     text-align: center;
+    background: #fe7241;
+        transition: .5s;
 }
-
+a.homeBtn:hover {
+    transition: .5s;
+    border: 3px solid #fff;
+}
 a.homeBtn img {
     width: 24px;
     height: 20px;
